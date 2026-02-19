@@ -1,0 +1,18 @@
+.tabs {
+  display: flex;
+  cursor: pointer;
+}
+
+.collapse .nav-link.active {
+  color: #405c79;
+  font-weight: 500;
+}
+
+.paragraph {
+  display: none;
+  padding: 20px;
+}
+
+.paragraph.active {
+  display: block;
+}
